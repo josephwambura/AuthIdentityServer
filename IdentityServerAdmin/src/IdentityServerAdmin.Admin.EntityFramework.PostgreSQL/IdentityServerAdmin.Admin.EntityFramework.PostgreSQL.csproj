@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+	    <TargetFramework>net7.0</TargetFramework>
+		<Description>Entity Framework layer for the administration of the Duende IdentityServer and Asp.Net Core Identity with PostrgreSQL support</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0-preview.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+	    <ProjectReference Include="..\IdentityServerAdmin.Admin.EntityFramework.Shared\IdentityServerAdmin.Admin.EntityFramework.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
